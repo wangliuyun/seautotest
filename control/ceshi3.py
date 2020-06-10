@@ -9,6 +9,7 @@ class MyTestCase(unittest.TestCase):
     def setUp(self):
         # 初始化请求类
         self.run = ceshi2.RunMain()
+        print("6666")
 
     def test_01(self):
         '''
